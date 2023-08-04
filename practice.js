@@ -21,3 +21,20 @@ const markHigherBMI = (markBMI > johnBMI);
 console.log(markHigherBMI);
 
 // END
+
+// Challenge no 2
+
+function highBMI(){
+
+    if(markBMI > johnBMI){
+        console.log("Mark's BMI is higher than John's")
+    }
+    else if (markBMI < johnBMI){
+        console.log("Mark's BMI is higher than John's")
+    }
+    else{
+        console.log("Both have same BMI")
+    }
+}
+
+highBMI();
