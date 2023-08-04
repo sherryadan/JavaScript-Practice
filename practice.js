@@ -1,7 +1,23 @@
-// ALERT COMMAND
-// let js='amazing';
-// if (js == 'amazing'){
-//     alert('Javascript is fun')
-// }
+// These are the Coding Challenges of UDEMY COURSE of The Complete Javascript Code from Zero to Expert
 
-console.log("Let's do a Demo Commit to maintain streaks, Hahahah !!!")
+
+// Javascript Fundamentals - Part 1
+
+// Challenge # 1
+
+let massMark = 25;
+let massJohn = 30;
+let heightMark = 1.3;
+let heightJohn = 1.2;
+
+const markBMI = massMark/heightMark^2;
+const johnBMI = massJohn/heightJohn^2;
+
+console.log(markBMI);
+console.log(johnBMI);
+
+
+const markHigherBMI = (markBMI > johnBMI);
+console.log(markHigherBMI);
+
+// END
