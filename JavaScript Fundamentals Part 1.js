@@ -59,3 +59,17 @@ function highaverage(){
     }
 }
 highaverage()
+
+// Challenge no 4
+
+
+function billcal(bill){
+    bill=30; 
+        return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.15;
+}
+
+const billcost = 400; 
+const tip = billcal(billcost)
+
+console.log( "The Bill was " + billcost + " the tip was " + tip + " and the total value is " + (tip + billcost)  )
+
